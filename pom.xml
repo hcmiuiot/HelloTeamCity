@@ -16,7 +16,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-
+                        <include>LibraryTest.java</include>
                     </includes>
                 </configuration>
             </plugin>
