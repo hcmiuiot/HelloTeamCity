@@ -6,4 +6,8 @@ public class Library {
         return a+b+1;
     }
 
+    public static double divide(double a, double b) {
+        return a/b;
+    }
+
 }
