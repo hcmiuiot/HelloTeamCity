@@ -10,4 +10,9 @@ public class LibraryTest {
     public void sum() {
         assertEquals(3, Library.sum(1, 2));
     }
+
+    @Test
+    public void divide() {
+        assertEquals(1, Library.divide(1, 0), 0);
+    }
 }
