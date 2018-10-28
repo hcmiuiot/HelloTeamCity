@@ -3,11 +3,14 @@ package CityPackage;
 public class Library {
 
     public static int sum(int a, int b) {
-        return a+b+1;
+        return a+b;
     }
 
     public static double divide(double a, double b) {
-        return a/b;
+        if (b == 0)
+            return 1;
+        else
+            return a/b;
     }
 
 }
