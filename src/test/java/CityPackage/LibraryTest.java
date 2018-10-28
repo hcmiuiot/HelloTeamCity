@@ -1,10 +1,11 @@
 package CityPackage;
 
 import org.junit.Test;
-
+import CityPackage.Library;
 import static org.junit.Assert.assertEquals;
 
 public class LibraryTest {
+    Library Library = new Library();
 
     @Test
     public void sum() {
@@ -13,6 +14,6 @@ public class LibraryTest {
 
     @Test
     public void divide() {
-        assertEquals(1, Library.divide(1, 0), 0);
+        assertEquals(1, Library.divide(1, 1), 0);
     }
 }
